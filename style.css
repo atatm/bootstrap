@@ -1,6 +1,7 @@
 body {
   position: relative;
 }
+
 #collapsibleNavbar {
   display: flex;
   flex-direction: row;
@@ -39,7 +40,7 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 0.37px;
-  color: #091E42;
+  color: #091e42;
 }
 
 #headerparagraph {
@@ -61,12 +62,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
+
 #socialmediaicon {
   height: 20px;
   left: 18.05%;
-  top:65ppx;
+  top: 65px;
 }
 
 .portfoliocards {
@@ -75,8 +77,13 @@ body {
   align-items: center;
   padding: 142px;
   gap: 142px;
-  position: absolute;
   width: 100%;
   height: 2694px;
- top: 917px;
+  top: 917px;
+}
+
+.contact-me {
+  background-image: url("images/contact\ form-\ background-shape-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
